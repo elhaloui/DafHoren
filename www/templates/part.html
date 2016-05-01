@@ -1,0 +1,27 @@
+<ion-view title="{{part.title}}">
+    <ion-content padding="true" class="has-header">
+        <form class="list">
+            <label class="item item-input">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="search" placeholder="Suche ein Thema">
+            </label>
+        </form>
+        <div class="list card" collection-repeat="lektion in part.lektions">
+
+
+            <div class="item item-button-right">
+
+    Lektion &nbsp; {{lektion.id}} | {{lektion.title}}
+    <a class="button button-outline ion-ios-cloud-download-outline icon-right button-balanced"></a>
+
+  </div>
+            <div class="item item-body" ui-sref="menu.lektion({lektionId : 'lektion'+lektion.id })">
+                <div style="margin: 0px; line-height: 250px; border: 1px solid rgb(238, 238, 238); border-radius: 3px; text-align: center; background-color: rgb(255, 255, 255);">
+                  <img ng-src="{{lektion.img}}" style="Width: 100% ; height : auto"/>
+                </div>
+
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>

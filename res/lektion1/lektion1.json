@@ -1,0 +1,102 @@
+{
+"title" : "",
+"traks" : [
+   {
+    "order" :1 ,
+    "transkript" : "Carlos: Guten Tag, ich bin der neue Praktikant.
+<br>Fr. Lange: Gr&uuml;&szlig; Gott. Wie hei&szlig;en Sie, bitte?
+<br>Carlos: Ich hei&szlig;e Carlos Rodriguez.
+<br>Fr. Lange: Und woher kommen Sie?
+<br>Carlos: Ich komme aus Argentinien.
+<br>Fr. Lange: Und ich bin Frau Lange, die Sekret&auml;rin. Herzlich willkommen bei Techno Design.",
+"audio" : "Audio-CD 1_01.mp3"
+},
+
+ {
+  "order" : 2 ,
+  "transkript" : "Sprecherin: Gespr&auml;ch 1
+<br>Fr. Lange: Hallo Georg, wie geht&rsquo;s?
+<br>Georg: Gut, und dir?
+<br>Fr. Lange: Auch gut. Und das ist der neue Praktikant, Carlos Rodriguez. Ihr seid in einem Team.
+<br>Georg: Servus, ich bin Georg. Kommst du aus Spanien?
+<br>Carlos: Nein, ich komme aus Argentinien. Und woher kommst du?
+<br>Georg: Ich komme aus &Ouml;sterreich.",
+  "audio" : "Audio-CD 1_02.mp3"
+  },
+  {
+   "order" : 3 ,
+   "transkript" : "Sprecherin: Gespr&auml;ch 2
+<br>Georg: Hallo Anne. Das ist Carlos. Er kommt aus Argentinien. Und das ist Anne. Sie ist Schweizerin.
+<br>Anne: Hoi Carlos. Freut mich.
+<br>Carlos: Hallo!
+<br>Anne: Arbeitet ihr in einem Team?
+<br>Georg: Ja. Wir arbeiten zusammen.
+<br>Anne: Viel Spa&szlig;!",
+   "audio" : "Audio-CD 1_03.mp3"
+   },
+   {
+    "order" :4 ,
+    "transkript" : "Anne: Georg kommt heute zum Essen. Kommst du auch?
+<br>Carlos: Ja gern, wo wohnst du?
+<br>Anne: Ich wohne in Mannheim in der Bergstra&szlig;e 10.
+<br>Carlos: Bergstra&szlig;e 10. Und wie ist deine Telefonnummer?
+<br>Anne: Meine Telefonnummer ist 0621 / 53487.
+<br>Carlos: Kannst du das bitte wiederholen?
+<br>Anne: Die Vorwahl ist 0621 und dann 53487.
+<br>Carlos: 0621 / 53487. Danke.
+<br>Anne: Tschau, bis sp&auml;ter.
+<br>Carlos: Tsch&uuml;ss.",
+    "audio" : "Audio-CD 1_04.mp3"
+    },
+    {
+     "order" :5 ,
+     "transkript" : "Sprecher: elf, zw&ouml;lf, dreizehn, vierzehn, f&uuml;nfzehn, sechzehn,
+     siebzehn, achtzehn, neunzehn, zwanzig, einundzwanzig, drei&szlig;ig, vierzig, f&uuml;nfzig,
+      sechzig, siebzig, achtzig, neunzig, einhundert, einhunderteins, zweihundert, eintausend, zehntausend,
+       einhunderttausend, eine Million, eine Milliarde",
+     "audio" : "Audio-CD 1_05.mp3"
+     },
+     {
+      "order" :6 ,
+      "transkript" : "Carlos: Carlos Rodriguez, Techno Design, guten Tag.
+<br>Hr. Jung: Guten Tag Herr Rodriguez. Hier: Jung, Techno Design, Personalb&uuml;ro. Ich brauche noch Informationen f&uuml;r den Personalbogen.
+<br>Carlos: Ja, bitte?
+<br>Hr. Jung: Wie schreibt man bitte &bdquo;Rodriguez&ldquo;?
+<br>Carlos: R &ndash; o &ndash; d &ndash; r &ndash; i &ndash; g &ndash; u &ndash; e &ndash; z.
+<br>Hr. Jung: Aha mit &bdquo;Z&ldquo;. Danke. Und Ihr Vorname ist &bdquo;Carlos&ldquo; mit &bdquo;C&ldquo;, ja?
+<br>Carlos: Ja richtig, Carlos mit &bdquo;C&ldquo;.
+<br>Hr. Jung: Gut, und Sie kommen aus Argentinien?
+<br>Carlos: Ja, ich bin Argentinier.
+<br>Hr. Jung: Danke. Und welche Sprachen sprechen Sie?
+<br>Carlos: Meine Muttersprache ist Spanisch und dann spreche ich noch Deutsch und Englisch.
+<br>Hr. Jung: Gut, und wo wohnen Sie hier, bitte?
+<br>Carlos: Ich wohne in der Schmittstra&szlig;e 18, hier in Mannheim.
+<br>Hr. Jung: Wie schreibt man &bdquo;Schmitt&ldquo;? Mit zwei t oder mit dt?
+<br>Carlos: Mit zwei &bdquo;T&ldquo;, S &ndash; c &ndash; h &ndash; m &ndash; i &ndash; t &ndash; t, Schmittstra&szlig;e 18.
+<br>Hr. Jung: Danke. &Auml;hm, und wie ist Ihre Postleitzahl?
+<br>Carlos: Die Postleitzahl ist 68139.
+<br>Hr. Jung: 68139. Und Ihre Telefonnummer ist 0621 / 34431. Richtig?
+<br>Carlos: Nein, 34421, nicht 31!
+<br>Hr. Jung: Also Telefon: 0621 / 34421.
+<br>Carlos: Ja, genau.
+<br>Hr. Jung: Und Ihre Handynummer?
+<br>Carlos: Hm, meine Mobilnummer ist 0166 / 558914.
+<br>Hr. Jung: O. k., 0166 / 558914.
+<br>Carlos: Ja, richtig.
+<br>Hr. Jung: Und Ihre Mail-Adresse ist r-carlos@tecno.com?
+<br>Carlos: Ja.
+<br>Hr. Jung: Vielen Dank. Auf Wiederh&ouml;ren.
+<br>Carlos: Bitte, gern geschehen. Auf Wiederh&ouml;ren.",
+      "audio" : "Audio-CD 1_06.mp3"
+      },
+      {
+       "order" :7 ,
+       "transkript" : "Sprecher: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z",
+       "audio" : "Audio-CD 1_07.mp3"
+       }
+
+
+
+]
+
+}

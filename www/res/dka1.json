@@ -1,0 +1,46 @@
+{
+"title" : "DAF KOMPAKT A1",
+"lektions" :  [
+  {
+    "id" : 1,
+    "title"   :"Ich und die anderen",
+    "img"     :"res/img/lektion1.jpg"
+  },
+  {
+    "id" : 2,
+    "title"   :"Termine, Termine",
+    "img"     :"res/img/lektion2.jpg"
+  },
+  {
+    "id" : 3,
+    "title"   :"Unternehmen Familie",
+    "img"     :"res/img/lektion3.jpg"
+  },
+  {
+    "id" : 4,
+    "title"   :"Spiel un Spass",
+    "img"     :"res/img/lektion4.jpg"
+  },
+  {
+    "id" : 5,
+    "title"   :"",
+    "img"     :"res/img/lektion5.jpg"
+  },
+  {
+    "id" : 6,
+    "title"   :"Kleider machen Freunde",
+    "img"     :"res/img/lektion6.jpg"
+  },
+  {
+    "id" : 7,
+    "title"   :"Grüezi in der Schweiz",
+    "img"     :"res/img/lektion7.jpg"
+  },
+  {
+    "id" : 8,
+    "title"   :"Mmh, das schmeckt",
+    "img"     :"res/img/lektion8.jpg"
+  }
+
+]
+}
