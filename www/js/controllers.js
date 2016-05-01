@@ -8,8 +8,10 @@ angular.module('app.controllers', [])
 }, function(error){
     //there was an error fetching from the server
     $scope.parts=[];
-});
 
+
+});
+  console.log('here');
 })
 .controller('menuCtrl',function($http,$scope)
 {
@@ -23,9 +25,21 @@ angular.module('app.controllers', [])
 
 }
 )
-.controller('lektionCtrl',function($http,$scope,$stateParams){
-  console.log('here');
- $scope.lektionId=$stateParams.lektionId;
+.controller('lektionCtrl', function($http,$scope,$stateParams) {
+  $http.get('res/'+$stateParams.lektionId+'/'+$stateParams.lektionId+'.json').then(function(response){
+ // get parts data from json file for more extensibilite
+console.log(response.data);
+   $scope.lektion=response.data;
+   console.log($scope.lektion);
+ }, function(error){
+     //there was an error fetching from the server
+     console.log(error);
+     $scope.lektion={};
+     $scope.lektion.traks=[]
 
+
+ });
+
+    $scope.lektion=$stateParams.lektionId;
 
 })

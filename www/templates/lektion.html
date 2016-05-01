@@ -1,5 +1,21 @@
-<ion-view title="title">
+<ion-view title="{{lektion.title}}">
     <ion-content padding="true" class="has-header">
-  here  {{lektionId}}
+      <div class="list card" collection-repeat="track in lektion.tracks">
+
+
+          <div class="item item-button-right">
+
+      Horren nummer &nbsp; {{trak.order}}
+
+
+      </div>
+          <div class="item item-body scroll-view" >
+              <p ng-bind-html="track.transkript">
+              </p>
+
+          </div>
+
+      </div>
+
     </ion-content>
 </ion-view>

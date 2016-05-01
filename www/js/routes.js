@@ -16,18 +16,22 @@ angular.module('app.routes', [])
       'part': {
         templateUrl: 'templates/part.html',
         controller: 'partCtrl'
-      }
+      },
+
     }
   })
+
   .state('menu.lektion', {
   url: '/lektion/:lektionId',
   views: {
-    'lektion': {
+    'part': {
       templateUrl: 'templates/lektion.html',
       controller: 'lektionCtrl'
-    }
+    },
+
   }
 })
+
 
   .state('menu', {
     url: '/menu',
