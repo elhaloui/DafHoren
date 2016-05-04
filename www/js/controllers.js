@@ -1,4 +1,4 @@
-angular.module('app.controllers', ['app.filters'])
+angular.module('app.controllers', ['app.filters','app.services'])
 
 .controller('partCtrl', function($http,$scope,$stateParams) {
  $http.get('res/'+$stateParams.partId+'.json').then(function(response){
@@ -11,7 +11,6 @@ angular.module('app.controllers', ['app.filters'])
 
 
 });
-  console.log('here');
 })
 .controller('menuCtrl',function($http,$scope)
 {
@@ -25,7 +24,7 @@ angular.module('app.controllers', ['app.filters'])
 
 }
 )
-.controller('lektionCtrl', function($http,$scope,$stateParams,$filter,$ionicPopup) {
+.controller('lektionCtrl', function($http,$scope,$stateParams,$filter,$ionicPopup,translateService) {
   $http.get('res/'+$stateParams.lektionId+'/'+$stateParams.lektionId+'.json').then(function(response){
  // get parts data from json file for more extensibilite
 $scope.lektion=response.data;
@@ -67,19 +66,16 @@ $scope.showPopup = function() {
     ]
   });
 
-  myPopup.then(function(res) {
-    console.log('Tapped!', res);
-  });
 
-  $timeout(function() {
-     myPopup.close(); //close the popup after 3 seconds for some reason
-  }, 3000);
+
+
  };
 
  $scope.tap=function(event){
 $scope.word=angular.element(event.target).html();
 $scope.showPopup();
  console.log(angular.element(event.target).html());
+ translateService.translteThis($scope.word,'de','ar');
 
  };
 
