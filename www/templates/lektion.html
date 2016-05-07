@@ -1,24 +1,51 @@
 <ion-view title="{{lektion.title}}">
-
-    <ion-content padding="true" class="has-header">
-<div class="list" collection-repeat="track in lektion.tracks">
-      <ion-audio-track track="track">
+ <ion-content padding="true" class="has-header">
+<!-- <ion-slide-box>
+<ion-slide ng-repeat="track in lektion.tracks">
+  <div class = "box box1">
+      <ion-audio-track track="track" >
          <div class="list list-inset">
           <div class="selectable">
              <p class="transkript" compile="track.transkript" >  </p>
           </div>
 
-             <div class="item">
-               <ion-audio-controls>
-                     <a class="button button-icon icon" ion-audio-play></a>
-                     <ion-spinner icon="ios"></ion-spinner>
+             <div class="item item-positive" class="light">
+                <ion-audio-controls>
+                     <a class="button button-icon icon" ion-audio-play style="display:inline;"></a>
+                     <ion-spinner icon="ios" style="display:inline;" ></ion-spinner>
                  </ion-audio-controls>
-               <ion-audio-progress-bar track="track" display-time></ion-audio-progress-bar>
+               <ion-audio-progress-bar track="track" display-time ></ion-audio-progress-bar>
              </div>
          </div>
      </ion-audio-track>
-</div>
+   </div>
+</ion-slide>
+</ion-slide-box> -->
+
+<ion-slide-box>
+
+   <ion-slide ng-repeat="track in lektion.tracks">
+      <div class = "box">
+        <ion-audio-track track="track" >
+           <div class="list list-inset">
+            <div class="selectable">
+               <p class="transkript" compile="track.transkript" >  </p>
+            </div>
+
+               <div class="item item-positive" class="light">
+                  <ion-audio-controls>
+                       <a class="button button-icon icon" ion-audio-play style="display:inline;"></a>
+                       <ion-spinner icon="ios" style="display:inline;" ></ion-spinner>
+                   </ion-audio-controls>
+                 <ion-audio-progress-bar track="track" display-time ></ion-audio-progress-bar>
+               </div>
+           </div>
+       </ion-audio-track>
+      </div>
+   </ion-slide>
+
+
+</ion-slide-box>
+
     </ion-content>
-
-
 </ion-view>

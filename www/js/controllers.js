@@ -72,10 +72,11 @@ $scope.showPopup = function() {
  };
 
  $scope.tap=function(event){
+
 $scope.word=angular.element(event.target).html();
+translateService.translteThis($scope.word,'de','ar');
 $scope.showPopup();
- console.log(angular.element(event.target).html());
- translateService.translteThis($scope.word,'de','ar');
+
 
  };
 

@@ -1,26 +1,18 @@
 angular.module('app.services', [])
-
-.factory('BlankFactory', [function(){
-
-}])
-
-.service('translateService', ['$http',function($http){
-console.log('here');
-console.log($http);
+.service('translateService', ['$http','$rootScope',function($http,$rootScope){
 this.translteThis=function(word,src,trg)
 {
+  $rootScope.resultWord='';
    // get translation from google api
-
-  var api_url='https://translate.googleapis.com/translate_a/single?client=gtx&dt=t&q=test&sl='+src+'&tl'+trg+'&q=encodeURI('+word+')';
-  var url='https://translate.googleapis.com/translate_a/single?client=gtx&sl=de&tl=ar&dt=t&q=encodeURI(land)';
-  console.log(url);
-  $http.get(url).then(function(response){
-  console.log(response);
- }, function(error){
+  var apiKey='trnsl.1.1.20160507T101338Z.f774a165842606e3.d9a315896fbb85f23dd59e7d6a3f4df96d6624bf';
+  var url='https://translate.yandex.net/api/v1.5/tr.json/translate?key=';
+  var params='&format=plain&text='+word+'&lang='+src+'-'+trg+'&callback=JSON_CALLBACK';
+  $http.jsonp(url+apiKey+params).success(function(data){
+    $rootScope.resultWord= data.text;
+    console.log(data);
+ }).error(function(error){
      //there was an error fetching from the server
-    console.log(error);
+     $rootScope.resultWord='kein translte';
 });
 };
 }]);
-
-// https://translate.googleapis.com/translate_a/single?client=gtx&sl=de&tl=ar&dt=t&q=encodeURI(test);
